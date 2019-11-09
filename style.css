@@ -4,9 +4,10 @@ body {
     font-family: 'Sirin Stencil', cursive;
     margin: 0;
   }
+
   .section {
     height: 100vh;
-    background-color: #7b1fa2;
+    background-color: rgb(41, 38, 43);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,9 +18,10 @@ body {
     height: 50px;
     background-color: #fff;
     border-radius: 50%;
+    /* box-shadow: inset 0px 1px 1px rgba(123, 31, 162, 0.2), 0px 1px 0px rgb(255, 255, 255, 0.2); */
     position: relative;
     bottom: 50px;
-    left: 433px
+    left: 443px
   }
 
   .menu-btn span,
@@ -99,8 +101,8 @@ body {
     visibility: visible;
   }
 
-.material-icons.md-13 { 
-    font-size: 13px; 
+.material-icons.md-15 { 
+    font-size: 15px; 
 }
 
 /* Button animation menu-nav__link */
